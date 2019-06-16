@@ -1,0 +1,8 @@
+{
+  "consumerKey": "<TWITTER CONSUMER KEY>",
+  "consumerSecret": "<TWITTER CONSUMER SECRET>",
+  "accessToken": "<TWITTER ACCESS TOKEN>",
+  "accessSecret": "<TWITTER ACCESS SECRET",
+  "wikiURL": "<WIKI API URL, E.G. 'https://en.wikipedia.org/w/api.php'>",
+  "blacklist": ["<PUT BLACKLISTED STRINGS SEPARATED BY A COMMA HERE>"]
+}
