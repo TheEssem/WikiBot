@@ -10,3 +10,6 @@ You will need to create a [Twitter developer account](https://developer.twitter.
 ```
 node index.js
 ```
+
+## Contributing
+Pull requests and issue reports are gladly accepted.
