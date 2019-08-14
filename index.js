@@ -35,7 +35,7 @@ function parseArticle(data, source) {
           if (error) console.error;
           console.log(`Successfully posted tweet with ID ${data2.id}`);
           console.log(`Response: ${response.statusCode} ${response.statusMessage}`);
-          client.post("statuses/update", { status: `Source: ${source.split("api.php")[0]}${getFirstProp(data.query.pages).title.split(" ").join("_")}`, in_reply_to_status_id:  data2.id }, function(error, data3, response2) {
+          client.post("statuses/update", { status: `${config.accountHandle} Source: ${source.split("api.php")[0]}${getFirstProp(data.query.pages).title.split(" ").join("_")}`, in_reply_to_status_id:  data2.id }, function(error, data3, response2) {
             if (error) console.error;
             console.log(`Successfully posted source with ID ${data3.id}`);
             console.log(`Response: ${response2.statusCode} ${response2.statusMessage}`);

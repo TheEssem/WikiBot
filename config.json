@@ -4,5 +4,6 @@
   "accessToken": "<TWITTER ACCESS TOKEN>",
   "accessSecret": "<TWITTER ACCESS SECRET",
   "wikiURLs": ["<ARRAY OF MEDIAWIKI API URLS, E.G. ['https://en.wikipedia.org/w/api.php']>"],
-  "blacklist": ["<PUT BLACKLISTED STRINGS SEPARATED BY A COMMA HERE>"]
+  "blacklist": ["<PUT BLACKLISTED STRINGS SEPARATED BY A COMMA HERE>"],
+  "accountHandle": "<PUT THE @USERNAME OF THE ACCOUNT>"
 }
